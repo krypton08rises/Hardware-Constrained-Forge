@@ -1,0 +1,38 @@
+# Python
+.python-version
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# CUDA / C++ build artifacts
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.cubin
+*.fatbin
+*.ptx
+
+# Compiled test/benchmark binaries
+*_test
+*_bench
+!*_test.cu
+!*_test.cpp
+!*_test.h
+!*_test.hpp
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
